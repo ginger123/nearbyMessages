@@ -9,19 +9,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
+            android:id="@+id/id_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_publish"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="publish" />
+
+        <Button
+            android:id="@+id/button_unpublish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="unpublish" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
