@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         clear_history_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                LinearLayout ll = findViewById(R.id.text_container);s
+                LinearLayout ll = findViewById(R.id.text_container);
                 ll.removeAllViews();
             }
         } );
